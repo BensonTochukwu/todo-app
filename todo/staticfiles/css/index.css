@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+.signup-login {
+
+    background-color: #0f1f37;
+    width: 100%;
+    overflow: hidden;
+    font-size: 24px;
+    color: #fff;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.signup-box {
+    background-color: #ffffff30;
+    height: 650px;
+    width: 520px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+
+}
+
+.heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+b {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 10px;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inp {
+    /* margin-top: 10px; */
+    margin: 10px;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #ffffff30;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+}
+
+.inp::placeholder {
+    color: #ffffffa5;
+
+}
+
+.submit-button {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #252525;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #ffff00bc;
+    color: #fff;
+}
+
+.line {
+    margin: 20px auto;
+    height: 1px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #ffffff;
+    border: none;
+    box-sizing: border-box;
+}
+
+.already-login {
+    text-align: center;
+}
+
+.already-account {
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.anc {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff00bc;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+.signup-box1 {
+    background-color: #ffffff30;
+    height: 555px;
+    width: 520px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.container {
+    text-align: center;
+}
+
+.no-account {
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+.anco {
+    display: inline-block;
+    text-decoration: none;
+    color: #ffff00bc;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.anc:hover {
+    color: #fff;
+}
+
+/* .sign{
+    text-decoration: none;
+    padding: 10px;
+  } */
+
+.anca {
+    font-size: 25px;
+    margin-top: 7px;
+    /* margin-left: -68px; */
+    margin-right: -41px;
+}
+
+a:hover {
+    color: #ffff00bc;
+}
+
+.heads {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ancaa {
+    font-size: 25px;
+    margin-top: 29px;
+    margin-left: -40px;
+}
+
+.completed {
+    color: #c5aeff;
+    text-decoration: line-through;
+}
+
+
+
+/* ===== MOBILE / SMALL SCREENS ===== */
+@media screen and (max-width: 768px) {
+    .signup-box {
+        width: 90%;
+        height: 60vh;
+        padding: 20px;
+    }
+
+    .heading {
+        font-size: 28px;
+        /* smaller heading on mobile */
+        margin-top: 10px;
+    }
+
+    .inp,
+    .submit-button {
+        width: 100%;
+        /* full width inputs/buttons */
+        font-size: 16px;
+        /* smaller text */
+        height: 45px;
+        margin: 10px 0;
+        /* spacing between inputs/buttons */
+    }
+
+    body {
+        font-size: 16px;
+        /* smaller base font */
+    }
+
+    .line {
+        align-items: center;
+    }
+
+    .already-account {
+        text-align: center;
+        margin-left: 0px;
+        /* align-items: center; */
+    }
+
+    .anc {
+        align-items: center;
+    }
+
+
+    .signup-box1 {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    }
+
+    .no-account {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .anco {
+        align-items: center;
+    }
+}
